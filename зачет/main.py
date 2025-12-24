@@ -11,7 +11,7 @@ while i + 1 < n and s[i+1] == x:
   y += 1
   i += 1
 if y == 1 :
-  v += x + str(count)
+  v += x + str(y)
 i += 1
 
 len_orig = len(s)
